@@ -1,5 +1,5 @@
 <template>
-  <nav class="flex items-center justify-between flex-wrap bg-lime-600 p-6">
+  <nav class="flex items-center justify-between flex-wrap bg-darkblue p-6">
     <div class="flex items-center flex-shrink-0 text-white mr-6">
       <router-link to="/">
         <svg
@@ -7,13 +7,13 @@
           fill="none"
           viewBox="0 0 24 24"
           stroke-width="1.5"
-          stroke="#d9f99d"
-          class="w-6 h-6"
+          stroke="#eff6ff"
+          class="w-7 h-7"
         >
           <path
             stroke-linecap="round"
             stroke-linejoin="round"
-            d="M13.5 21v-7.5a.75.75 0 01.75-.75h3a.75.75 0 01.75.75V21m-4.5 0H2.36m11.14 0H18m0 0h3.64m-1.39 0V9.349m-16.5 11.65V9.35m0 0a3.001 3.001 0 003.75-.615A2.993 2.993 0 009.75 9.75c.896 0 1.7-.393 2.25-1.016a2.993 2.993 0 002.25 1.016c.896 0 1.7-.393 2.25-1.016a3.001 3.001 0 003.75.614m-16.5 0a3.004 3.004 0 01-.621-4.72L4.318 3.44A1.5 1.5 0 015.378 3h13.243a1.5 1.5 0 011.06.44l1.19 1.189a3 3 0 01-.621 4.72m-13.5 8.65h3.75a.75.75 0 00.75-.75V13.5a.75.75 0 00-.75-.75H6.75a.75.75 0 00-.75.75v3.75c0 .415.336.75.75.75z"
+            d="M3.75 21h16.5M4.5 3h15M5.25 3v18m13.5-18v18M9 6.75h1.5m-1.5 3h1.5m-1.5 3h1.5m3-6H15m-1.5 3H15m-1.5 3H15M9 21v-3.375c0-.621.504-1.125 1.125-1.125h3.75c.621 0 1.125.504 1.125 1.125V21"
           />
         </svg>
       </router-link>
@@ -27,8 +27,8 @@
           py-2
           border
           rounded
-          text-lime-200
-          border-lime-400
+          text-blue-200
+          border-blue-100
           hover:text-white hover:border-white
         "
         @click="showMenu()"
@@ -37,15 +37,23 @@
           class="fill-current h-3 w-3"
           viewBox="0 0 20 20"
           xmlns="http://www.w3.org/2000/svg"
-            stroke="#d9f99d"
+          stroke="#eff6ff"
         >
           <title>Menu</title>
           <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z" />
         </svg>
       </button>
     </div>
-      <div class="w-full block flex-grow lg:flex lg:items-center lg:w-auto   text-center">
-    <div v-show="menu">
+    <div
+      class="
+        w-full
+        block
+        flex-grow
+        lg:flex lg:items-center lg:w-auto
+        text-center
+      "
+    >
+      <div v-show="menu">
         <div class="text-sm lg:flex-grow">
           <a
             href="#responsive-header"
@@ -53,13 +61,12 @@
               block
               mt-4
               lg:inline-block lg:mt-0
-              text-lime-100
+              text-blue-100
               hover:text-white
               mr-4
-            
             "
           >
-               <router-link to="/recipes"> Recipes</router-link>
+            <router-link to="/floors"> Plantas</router-link>
           </a>
           <a
             href="#responsive-header"
@@ -67,12 +74,12 @@
               block
               mt-4
               lg:inline-block lg:mt-0
-              text-lime-100
+              text-blue-100
               hover:text-white
               mr-4
             "
           >
-            <router-link to="/ingredients"> Ingredients</router-link>
+            <router-link to="/api"> Api Floors</router-link>
           </a>
           <a
             href="#responsive-header"
@@ -80,12 +87,12 @@
               block
               mt-4
               lg:inline-block lg:mt-0
-              text-lime-100
+              text-blue-100
               hover:text-white
               mr-4
             "
           >
-            <router-link to="/market"> Market List</router-link>
+            <router-link to="/view"> Documentación</router-link>
           </a>
           <a
             href="#responsive-header"
@@ -93,11 +100,11 @@
               block
               mt-4
               lg:inline-block lg:mt-0
-              text-lime-100
+              text-blue-100
               hover:text-white
             "
           >
-            <router-link to="/calendar"> Planner</router-link>
+            <router-link to="/view"> Contacto</router-link>
           </a>
         </div>
       </div>

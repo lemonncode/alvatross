@@ -7,8 +7,15 @@ module.exports = {
     extend: {
       fontFamily: {
         sans: ['"Inter var"', ...defaultTheme.fontFamily.sans],
+        /*similar a helvetica, en google-fonts*/
+        roboto: ['Roboto']
+        
+      },
+      colors: {
+        darkblue: "#2E344D",
+        lightblue: "#F5F7FB"
       },
     },
-  },
-  plugins: [],
+    plugins: [],
+  }
 };

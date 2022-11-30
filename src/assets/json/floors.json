@@ -1,0 +1,90 @@
+[
+    {
+        "id": 1,
+        "floor_number": "Planta Uno",
+        "rooms": [
+            {
+                "name": "Stone",
+                "max_capacity": 35,
+                "occupation": 95
+            },
+            {
+                "name": "Orange",
+                "max_capacity": 40,
+                "occupation": 40
+            },
+            {
+                "name": "Purple",
+                "max_capacity": 30,
+                "occupation": 40
+            },
+            {
+                "name": "Gold",
+                "max_capacity": 30,
+                "occupation": 50
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "floor_number": "Planta Dos",
+        "rooms": [
+            {
+                "name": "Amber",
+                "max_capacity": 30,
+                "occupation": 20
+            },
+            {
+                "name": "Esmerald",
+                "max_capacity": 45,
+                "occupation": 40
+            },
+            {
+                "name": "Sky",
+                "max_capacity": 25,
+                "occupation": 40
+            },
+            {
+                "name": "Rose",
+                "max_capacity": 85,
+                "occupation": 100
+            },
+            {
+                "name": "Zinc",
+                "max_capacity": 30,
+                "occupation": 40
+            },
+            {
+                "name": "Red",
+                "max_capacity": 30,
+                "occupation": 70
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "floor_number": "Planta Tres",
+        "rooms": [
+            {
+                "name": "Lime",
+                "max_capacity": 90,
+                "occupation": 10
+            },
+            {
+                "name": "Velvet",
+                "max_capacity": 60,
+                "occupation": 60
+            },
+            {
+                "name": "Purple",
+                "max_capacity": 30,
+                "occupation": 40
+            },
+            {
+                "name": "Gold",
+                "max_capacity": 30,
+                "occupation": 50
+            }
+        ]
+    }
+]
